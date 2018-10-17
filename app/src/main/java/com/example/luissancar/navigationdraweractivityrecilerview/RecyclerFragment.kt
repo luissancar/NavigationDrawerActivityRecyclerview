@@ -82,7 +82,7 @@ class RecyclerFragment : Fragment() {
 
     fun addDatos2(){
         for (i in 1..2) {
-            println("aaaaaafffffffffffffffffffffff")
+
             var reg: Registro=Registro("nuevo A " + i.toString(),"nuevo B " + i.toString(),"http://gcba.github.io/iconos/Iconografia_PNG/auto.png")
             datos.add(reg)
         }
