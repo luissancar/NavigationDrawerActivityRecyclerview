@@ -75,7 +75,7 @@ class RecyclerFragment : Fragment() {
     fun addDatos(){
 
         for (i in 1..2) {
-            val reg: Registro=Registro("dato A " + i.toString(),"dato B " + i.toString(),"http://gcba.github.io/iconos/Iconografia_PNG/arbol.png")
+            val reg=Registro("dato A " + i.toString(),"dato B " + i.toString(),"http://gcba.github.io/iconos/Iconografia_PNG/arbol.png")
             datos.add(reg)
         }
 
@@ -84,7 +84,7 @@ class RecyclerFragment : Fragment() {
     fun addDatos2(){
         for (i in 1..2) {
 
-            var reg: Registro=Registro("nuevo A " + i.toString(),"nuevo B " + i.toString(),"http://gcba.github.io/iconos/Iconografia_PNG/auto.png")
+            val reg=Registro("nuevo A " + i.toString(),"nuevo B " + i.toString(),"http://gcba.github.io/iconos/Iconografia_PNG/auto.png")
             datos.add(reg)
         }
 
